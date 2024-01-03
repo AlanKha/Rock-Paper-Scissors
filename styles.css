@@ -1,3 +1,111 @@
 html{
-    background-color: lightblue;
+    background-color: darkolivegreen;
+    text-align: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Title */
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: olivedrab;
+}
+.title h1{
+    color: black;
+    font-size: 32px;
+    margin: 0px;
+    font-family: 'Courier New', monospace;
+}
+
+/* Instructions */
+
+.instructions{
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red */
+}
+
+.instructions h2{
+    color: #1e1e1e;
+    font-size: 32px;
+    padding: 3dvh 0px 0px 0px;
+    margin: 0px;
+}
+
+.instructions h3{
+    color: #1e1e1e;
+    font-size: 20px;
+    padding: 0px 0px 3dvh 0px;
+    margin: 0px;
+}
+
+/* score */
+
+.score{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* border: 2px solid blue; */
+}
+
+.score p{
+    padding: 0px 5dvh 0px 5dvh;
+}
+
+/* buttons */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 0px 15vw 0px 15vw;
+}
+
+.buttons button {
+    background-color: green; 
+    border: none;
+    padding: 0px;
+    margin: 0px 1vw 0px 1vw;
+    border-radius: 50px; 
+
+}
+
+.buttons button img {
+    width: 25vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+}
+.buttons button:hover {
+    border: 1px solid black;
+    filter: brightness(95%); 
+}
+
+/* reset button */
+
+.reset{
+    padding: 3vw
+}
+.reset button{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+/* footer */
+
+.footer {
+    position: fixed; /* or position: absolute; */
+    bottom: 0;
+    width: 100%; /* Ensure it spans the full width */
+    background-color: darkolivegreen; /* Set the background color if needed */
+    text-align: center; /* Center the text horizontally */
+    font-size: 14px; /* Adjust font size as needed */
 }
